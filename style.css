@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("assets/topography.webp");
+    text-align: justify;
+    line-height: 25px;
+}
+
+header,
+footer {
+    background-color: #333;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+footer {
+    padding: 10px 0;
+    color: #ccc;
+    text-align: right;
+    font-style: italic;
+    font-size: 18px;
+}
+
+nav,
+article,
+footer p {
+    margin: 0 10%;
+}
+
+nav {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+a {
+    color: #ff0099;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+p,
+dd {
+    font-family: 'Inconsolata', monospace;
+    ;
+}
+
+h1,
+h2,
+dt {
+    font-family: 'Roboto Slab', serif;
+}
+
+.me h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.me p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #eee;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.quote figcaption,
+.quote blockquote {
+    margin: 10px;
+}
+
+dt {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+dd {
+    margin-bottom: 25px;
+}
+
+.separator {
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    color: #ff0099;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.wiki-header {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
